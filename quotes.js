@@ -17,4 +17,5 @@ const quotes =[
     "'Get smoked like a blunt, hippie'",
     "'WAIT NO, NOT MY J'S'",
     "'Get smoked like a blunt hippie'",
+    "'lol i havent got a clue'",
 ]
