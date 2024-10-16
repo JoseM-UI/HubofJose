@@ -12,7 +12,7 @@ const quotes =[
     "'thingos'",
     "'Being a twink is hard'",
     "'forgor'",
-    "'Geneava Convention? did we get tickets year?'",
+    "'Geneava Convention? did we get this tickets year?'",
     "'let's pick up a trade, fuck this school shit'",
     "'Get smoked like a blunt, hippie'",
     "'WAIT NO, NOT MY J'S'",
