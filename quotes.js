@@ -21,4 +21,7 @@ const quotes =[
     "'well that is my best'",
     "'i think im missing something'",
     "you you missed the third 'the'",
+    "'is he stupid why would he do that'",
+    "go ahead keep reloading the page",
+    "'jarvis drop my needle'",
 ]
