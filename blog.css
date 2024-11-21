@@ -65,6 +65,15 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 
+    img {
+        width: 40%;
+        display: block;
+        margin:auto;
+        margin-top:5% ;
+        margin-bottom: 5%;
+
+    }
+
     /* Boxed Shadow Section */
     .highlight-section {
         margin: 20px 20px;
