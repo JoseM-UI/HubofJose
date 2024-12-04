@@ -25,5 +25,6 @@ const quotes =[
     "go ahead keep reloading the page",
     "'jarvis drop my needle'",
     "thats a dumb font",
+    "you actually like die rise?",
 
 ]
