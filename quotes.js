@@ -26,5 +26,12 @@ const quotes =[
     "'jarvis drop my needle'",
     "thats a dumb font",
     "you actually like die rise?",
+    "smormu",
+    "House MD is peak",
+    "i own a musket for home defense since thats what the founding fathers intended",
+    "Dan O'grady my beloved",
+    "rest in peace popsmoke",
+    "Miku in fortnite?",
+    "LiPo batteries without any safety discharge are cheaper though",
 
 ]
