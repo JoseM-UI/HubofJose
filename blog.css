@@ -11,6 +11,23 @@
         line-height: 1.6;
         padding: 20px;
     }
+
+    nav {
+        margin: 1em 0;
+        text-align: center;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: var(--secondary-color);
+        margin: 0 1em;
+        font-size: 1.2rem;
+    }
+    
+    nav a:hover {
+        color: var(--primary-color);
+        text-shadow: 0 0 8px var(--secondary-color);
+    }
     
     /* Header Styles */
     h1, h2, h3, h4 {
