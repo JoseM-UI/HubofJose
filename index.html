@@ -1,100 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>HubofJose</title>
-        <link href="style.css" rel="stylesheet" type="text/css">
-    </head>
-    
-
-    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HubofJose</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
     <div class="container">
         <header>
+            <h1>HubofJose</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="mailto:jomationu@gmail.com">Email</a></li>
+                <li><a href="https://people.depaulhacks.com/2024/coolsitebyjose/">Depaul Hacks - My School Site</a></li>
+                <li><a href="blog.html">Jose’s Jargon</a></li>
+                <li><a href="PP.html">Personal Projects List</a></li>
+                <li><a href="tube.html">The Tube</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>Just really bad ideas*</h2>
+            <p>A quick peek at my life as a dumb person with even dumber ideas.</p>
+            <br>
+            <br>
+
+
+            <h2>About:</h2>
+            <p>Welcome to the home of Jose's thoughts and tasks.</p>
+            <p>18M - College Student - DePaul - Computer Science Software Development</p>
+            <p>a really jank engineer</p>
+            <p>part-time animator/artist</p>
+            <p>full time dumbass</p>
+            <p></p>
+
+            <br>
+            <br>
+            
+
+            <div id="status-box">
+                <p id="status">Status: All systems go!</p>
+              </div>
+              <style>
+                #status-box {
+                  padding: 10px;
+                  margin-top: 20px;
+                  background-color: #d8d8d8;
+                  border-radius: 8px;
+                  font-family: 'Arial', sans-serif;
+                  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                }
+              </style>
+              <div id="device-info">
+                <p id="info"></p>
+              </div>
+
+              
+              <script>
+                const userAgent = navigator.userAgent;
+                const platform = navigator.platform;
+                const browser = (() => {
+                  if (userAgent.includes("Chrome")) return "Chrome - (ew switch to firefox)";
+                  if (userAgent.includes("Firefox")) return "Firefox - (your smart)";
+                  if (userAgent.includes("Safari")) return "Safari - (please use firefox)";
+                  if (userAgent.includes("Edge")) return "Edge - (why are you weird?)";
+                  return "Unknown";
+                })();
+              
+                document.getElementById('info').textContent = `You're using ${browser} - ${platform}`;
+              </script>
+              
+              <style>
+                #device-info {
+                  padding: 10px;
+                  margin-top: 20px;
+                  background-color: #E59400;
+                  border-radius: 8px;
+                  font-family: 'Arial', sans-serif;
+                  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                }
+              </style>
+              
+              
+            <br>
+
+            <div class="daily-quote">
+                <h2>Random Thoughts:</h2>
+                <p id="quote">"Here’s where your dumb daily quote will go!"</p>
+            </div>
+        </main>
         
 
 
-            <h1><b>HubofJose</b></h1>
-            </header>
-
-            <nav>
-                <ul>
-                    <li><a href="mailto:jomationu@gmail.com">Email</a></li>
-                    <li><a href="https://people.depaulhacks.com/2024/coolsitebyjose/">Depaul Hacks - My School Site:</a></li>
-                    <li><a href="blog.html">Jose’s Jargon:</a></li>
-                    <li><a href="PP.html">Personal Projects List:</a></li>
-                    <li><a href="tube.html">The Tube:</a></li>
-                </ul>
-            </nav>
     </div>
-</body>
-</html>
 
-<div class="box">
-    
-  </div>
+    <script src="quotes.js"></script>
+    <script>
+        const randomIndex = Math.floor(Math.random() * quotes.length);
+        const quoteOfTheDay = quotes[randomIndex];
+        document.getElementById('quote').innerText = quoteOfTheDay;
+    </script>
+
+<script>
+    fetch('/status.txt')
+      .then(response => response.text())
+      .then(text => {
+        document.getElementById('status').textContent = `Status: ${text}`;
+      });
+  </script>
   
-
-<body>
-
-    <div id="topbar" class="p1">
-        <main>
-            <h2> just really bad ideas*</h2>
-            <p> a quick peek at my life as a dumb person with even dumber ideas</p>
-            <div class="scroll-indicator">
-                <span>&darr;</span>
-            </div>
-            <br>
-        </main>
-        <h2 id="dance"> About:</h2>
-
-        <div id="insideabout">
-            <p id="intro" class="smallMargins"></p>
-            <div id="introtext">
-                <p>> Welcome to the home of Jose's thoughts and tasks</p>
-                18M, College Student - DePaul - Computer Science Software Development
-                <p> > A really jank engineer also a part-time animator</p>
-                <p> > lacks the correct amount of braincells</p>
-                <div class="scroll-indicator">
-                    <span>&darr;</span>
-                </div>
-                <br>
-                <h2 id="dance"> Status:</h2>
-                <p>> probably doing anything else </p>
-                
-        <div class="daily-quote">
-            <h2>Random Thoughts:</h2>
-            <br>
-            <p id="quote">"Here’s where your dumb daily quote will go!"</p>
-        </div>
-
-        <script src="quotes.js"></script>
-    
-        <script>
-            // quotes from quotes file
-            const randomIndex = Math.floor(Math.random() * quotes.length); // random quote chooser
-            const quoteOfTheDay = quotes[randomIndex]; // Get the random quote
-         
-            // displaying da quote
-            document.getElementById('quote').innerText = quoteOfTheDay;
-         </script>
-         
-
-
-
-        </script>
-        <br>
-        <br>
-
-        <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large"> 
-            <h6>Powered by idiot juices</h6>
-          </footer>
-          
-
 </body>
 
 </html>
