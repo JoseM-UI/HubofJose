@@ -35,8 +35,9 @@ const quotes =[
     "LiPo batteries without any safety discharge are cheaper though",
     "everything i say might be satire",
     "legally, i dont have to admit anything",
-    "ah the bath",
+    "ah - the bath",
     "whats up jonathan",
+    ""
     
 
 ]
