@@ -52,6 +52,17 @@ body {
     z-index: 3;
     background-color: rgba(255, 255, 255, 0.9);
   }
+
+  .header-link {
+  text-decoration: none;  /* Removes underline */
+  color: inherit;         /* Makes it match the h1 color */
+}
+
+/* Prevents visited links from turning purple */
+.header-link:visited {
+  color: inherit;
+}
+
   
   main section {
     margin-bottom: 20px;

@@ -65,6 +65,13 @@
         text-decoration: underline;
     }
 
+    .header-link:hover {
+  text-decoration: none; /* Overrides the global hover underline */
+  color: inherit;        /* Keeps the same color */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Optional hover effect */
+}
+
+
     /* List Styles */
     ul {
         margin: 10px 40px;
@@ -99,3 +106,17 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         border-radius: 8px;
     }
+
+.header-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-link:visited {
+  color: inherit;
+}
+
+.header-link:hover {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+

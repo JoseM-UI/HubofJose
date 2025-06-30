@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,82 +8,52 @@
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <h1>hubofjose</h1> <a href="https://media-hosting.imagekit.io//238101839b744c7f/fontbolt.png?Expires=1832702272&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=BbjjdAiG~UjTHK9sg0kPd5zbhGYLHj8Pe9D~C922~Cu12ruAYfcxv~2zbAGJulw35OMboUErQzU6MWCkDBf1qVJ~zoDwKGVE1f2ZCF2dAkSAgYjY1RAQ5yFaiZzAxSinpjnuc9fgB0HJeAkrCH54TFlyQD~MmPznvqzNPpOrF2dpjYxSVM50j~gqXcsyx8qeijVK45DjYPGAlCHsZtPsnbGcpXNNClyBEOJC33umy3aPPLhGI28RLvMRyRtmk8I3vST3lAO6mItWb3HsNmNLXVAIr-S19Q4ws9F-Zcv91UDSbvz~yd8WCydNW-YkVnREPFX9TeoIVxIvSxIVNCSplg__" id="download"></a> 
-        </header>
+  <div class="container">
+    <header>
+      <h1><a href="index.html" class="header-link">hubofjose</a></h1>
+    </header>
 
-        <nav>
-            <ul>
-                <li><a href="mailto:jomationu@gmail.com">Email</a></li>
-                <li><a href="https://people.depaulhacks.com/2024/coolsitebyjose/Chapter2Forge.html">Depaul Hacks - My School Site</a></li>
-                <li><a href="blog.html">Jose’s Jargon File</a></li>
-                <li><a href="PP.html">Personal Projects List</a></li>
-                <li><a href="tube.html">The Tube</a></li>
-            </ul>
-        </nav>
+    <nav>
+      <ul>
+        <li><a href="mailto:jomationu@gmail.com">email me :3</a></li> |
+        <li><a href="https://people.depaulhacks.com/2024/coolsitebyjose/Chapter2Forge.html">Depaul Hacks - My School Site</a></li> |
+        <li><a href="blog.html">posts</a></li> |
+        <li><a href="PP.html">projects List</a></li> |
+        <li><a href="tube.html">.mp4 wall</a></li>
+      </ul>
+    </nav>
 
-        <main>
-            <h2>Just really bad ideas*</h2>
-            <p>A quick peek at my life as a dumb person with even dumber ideas.</p>
-            <br>
-            <br>
-            <br>
+    <main>
+      <h2>about:</h2>
+      <p>welcome to my thoughts and <em>maybe</em> projects</p>
+      <p>18M - DePaul</p>
+      <p>jank "engineer/animator"</p>
 
+      <div id="device-info">
+        <p id="info"></p>
+      </div>
 
-            <h2>About:</h2>
-            <p>Welcome to the home of Jose's thoughts and tasks.</p>
-            <p>18M - College Student - DePaul - Computer Science Software Development</p>
-            <p>a really jank engineer</p>
-            <p>part-time animator/artist</p>
-            <p>full time shitty programmer</p>
-            <p></p>
+      <div class="daily-quote">
+        <h2>Random Thoughts:</h2>
+        <p id="quote">""</p>
+      </div>
 
-            <br>
-            <br>
-            
-              <div id="device-info">
-                <p id="info"></p>
-              </div>
+      <footer>est. 2024</footer>
 
               
               <script>
                 const userAgent = navigator.userAgent;
                 const platform = navigator.platform;
                 const browser = (() => {
-                  if (userAgent.includes("Chrome")) return "Chrome - (ew switch to firefox)";
-                  if (userAgent.includes("Firefox")) return "Firefox - (your smart)";
-                  if (userAgent.includes("Safari")) return "Safari - ";
-                  if (userAgent.includes("Edge")) return "Edge - (why are you weird?)";
+                  if (userAgent.includes("Chrome")) return "Chrome (ew switch to firefox)";
+                  if (userAgent.includes("Firefox")) return "Firefox";
+                  if (userAgent.includes("Safari")) return "Safari (eh)";
+                  if (userAgent.includes("Edge")) return "Edge (you freak)";
                   return "idk bro";
                 })();
               
-                document.getElementById('info').textContent = `You're using ${browser} - ${platform}`;
+                document.getElementById('info').textContent = `Using ${browser} - ${platform}`;
               </script>
-              
-              <style>
-                #device-info {
-                  padding: 10px;
-                  margin-top: 30px;
-                  background-color: #E59400;
-                  border-radius: 8px;
-                  font-family: 'Arial', sans-serif;
-                  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-                }
-              </style>
-              
-              
-            <br>
-
-            <div class="daily-quote">
-                <h2>Random Thoughts:</h2>
-                <p id="quote">"Here’s where your dumb daily quote will go!"</p>
-            </div>
-        </main>
-        
-
-
-    </div>
 
     <script src="quotes.js"></script>
     <script>
@@ -100,7 +69,7 @@
         document.getElementById('status').textContent = `Status: ${text}`;
       });
   </script>
-  
-</body>
 
+  </main>
+  </body>
 </html>

@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+#device-info {
+                  padding: 10px;
+                  margin-top: 30px;
+                  background-color: #E59400;
+                  border-radius: 8px;
+                  font-family: 'Arial', sans-serif;
+                  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                }
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
@@ -14,12 +23,25 @@ body {
     min-height: 100vh;
 }
 
+a:link {
+  color: blue;     /* Unvisited links */
+}
+
+a:visited {
+  color: purple;   /* Visited links */
+}
+
 .container {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
+    text-decoration: none;  /* Removes underline */
+  color: inherit;         /* Makes it match the h1 color */
+    
 }
+
+
 
 header {
     display: flex;
@@ -34,6 +56,12 @@ header h1 {
     letter-spacing: 2px;
 }
 
+nav {
+    text-decoration: underline;
+
+    
+}
+
 nav ul {
     display: flex;
     justify-content: center;
@@ -45,8 +73,8 @@ nav ul {
 nav a {
     text-decoration: none;
     color: #333;
-    font-size: 14px;
-    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1.75;
 }
 
 main {
@@ -71,11 +99,6 @@ main p {
     background-color: #f0f0f0;
 }
 
-footer {
-    padding: 20px;
-    background-color: #e0e0e0;
-    text-align: center;
-}
 
 /* Responsive design */
 @media (max-width: 768px) {
@@ -103,3 +126,13 @@ footer {
         padding: 10px;
     }
 }
+
+.header-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-link:visited {
+  color: inherit;
+}
+
