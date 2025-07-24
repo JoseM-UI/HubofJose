@@ -40,7 +40,7 @@ const quotes =[
     "I think it might be old man dystixia",
     "cause im a gamer AND a scientist, this is very important to me",
     "to get a REAL shuffed deck of cards, shuffle it at least ~7 times",
-    ""
+    "zoomer femboy liberal gets owned by proud conservative white writer"
     
 
 ]
