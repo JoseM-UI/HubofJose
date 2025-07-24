@@ -29,7 +29,7 @@ const quotes =[
     "smormu",
     "House MD is peak",
     "i own a musket for home defense since thats what the founding fathers intended",
-    "Dan O'grady my beloved",
+    "Dan O'grady im sorry",
     "rest in peace popsmoke",
     "Miku in fortnite?",
     "LiPo batteries without any safety discharge are cheaper though",
@@ -40,7 +40,15 @@ const quotes =[
     "I think it might be old man dystixia",
     "cause im a gamer AND a scientist, this is very important to me",
     "to get a REAL shuffed deck of cards, shuffle it at least ~7 times",
-    "zoomer femboy liberal gets owned by proud conservative white writer"
+    "zoomer femboy liberal gets owned by proud conservative white writer",
+    "say finals 3 times and ill summon like beatle juice",
+    "i dont take opinions from mexicans with jjk pfps",
+    "MIKE REBUILD THE SET, REBUILD MY KIDS",
+    "said the man fixing his CAD",
+    "Fabuluos... University education, you cant beat it",
+    "being a computer toucher is so hard when ur fucking stupid and know nothing about computers",
+    "HE WAS INTO AGE PLAY- HE THOUGHT I WAS 6?!",
+    "music brings all togther - Marcos M"
     
 
 ]
