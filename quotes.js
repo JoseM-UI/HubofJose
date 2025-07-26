@@ -41,7 +41,7 @@ const quotes =[
     "cause im a gamer AND a scientist, this is very important to me",
     "to get a REAL shuffed deck of cards, shuffle it at least ~7 times",
     "zoomer femboy liberal gets owned by proud conservative white writer",
-    "say finals 3 times and ill summon like beatle juice",
+    "say 'the finals' 3 times and ill summon like beatle juice",
     "i dont take opinions from mexicans with jjk pfps",
     "MIKE REBUILD THE SET, REBUILD MY KIDS",
     "said the man fixing his CAD",

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
 
-/* styles.css */
+
 body {
     margin: 0;
     padding: 0;
@@ -54,8 +54,8 @@ body {
   }
 
   .header-link {
-  text-decoration: none;  /* Removes underline */
-  color: inherit;         /* Makes it match the h1 color */
+  text-decoration: none;  
+  color: inherit;        
 }
 
 /* Prevents visited links from turning purple */
