@@ -7,38 +7,70 @@
     <link rel="stylesheet" href="../altuni.css" type="text/css">
 </head>
 
-<main>
     <body>
+        <main>
 <h1> The Gyro Ball Experience </h1>
+    <nav>
+      <a href="../index.html"><b>Home</b></a> |
+      <a href="../PP.html"><b>Projects</b></a> |
+      <a href="../blog.html"><b>Posts</b></a> 
+    </nav>
 
+    <h5>*click pictures for higher quality*</h5>
 <p> 
-With Part 8 finally being announced not animated yet.. I wanted to get into cosplay and go as an one of my favorite shows and piece of media Jojo Bizarre Adventure, I love this show so much plus it helps  to prepare for halloween and start making props and planning,
+With Part 8 finally being announced (but not animated yet), I wanted to get into cosplay and dress up as someone from one of my favorite pieces of media: JoJo's Bizarre Adventure. I love this series so much. Plus, it helps me prep for Halloween and start making props and plans.
 
-One of the Cosplays I'm considering is to go as Gyro Zeppeli from SBR (Jojo Part 8).  The Angry Vulgar Italian man that helps Johnny Joestar throughout SBR. 
+One of the cosplays I'm considering is Gyro Zeppeli from Steel Ball Run (JoJo Part 7). He's the angry, vulgar Italian guy who helps Johnny Joestar throughout the story.
 <br>
-<img src="/photos/IMG_9690.jpeg" alt="look it up gyro pick">
-I took references and decided I wanted to do a weathered one and a fully “unscaped” one but the files are the same. The only difference is that the hole is smaller and the actual weather effect is the paint and scraping not the 3d printer.
-</p>
+
+<img src="../photos/lowresgyro.jpg" 
+alt="look it up gyro pick" 
+style="max-width: 100%;"
+onclick="this.src='../photos/IMG_9690.jpg'; this.style.cursor='default';"/>
+
+
+
+I took some reference images and decided I wanted to make both a weathered version and a fully clean one. The files are the same — the only difference is that the hole is smaller and the weathered effect comes from paint and scraping, not the 3D print itself.</p>
 
 <h1>Modeling/CAD</h1>
 
 <p>I start with actually modeling it in blender, Simple low poly sphere to start (Icosphere technically) since its easier to shape stuff around then went into sculpting mode and put creases in the needs sports then smoothened them off around the edges</p>
 
-<img src="/photos/Screenshot_20250726_155215.png" alt="blendergyro">
-<p>After the shape is what i wanted i raise the subdivision modifier and got ti so its able to gte that smooth shape and finally using the make manifold blender addon its ready to be sent into the printer</p>
+<img src="../photos/Lowresbledner.jpg" 
+alt="blendergyro"
+style="max-width: 100%;"
+onclick="this.src='../photos/Screenshot_20250726_155215.jpg'; this.style.cursor='default';"/>
+
+<p>After the shape looked good, I increased the subdivision modifier to smooth it out even more. Then I used the Make Manifold Blender add-on to prep it for 3D printing.</p>
 <br>
 
-<p>my original plan was to have the pull string keychain mechanism inside the ball so i can use the smaller ball side as a ring, that why I made a giant cylinder hole within the model of mine, because i thought i would need all that space and need it to move freely but i reeves it having the main pulley mechanism outside as the ring so that was a tad easier</p>
-<img src="/photos/Screenshot_20250726_155029.png" alt="ringcad">
+<p>My original plan was to put a pull-string keychain mechanism inside the ball, using the smaller side as a ring. That’s why I modeled a big cylinder hole inside. But I ended up putting the pulley mechanism outside the ball, which turned out to be easier.</p>
+
+<img src="../photos/lowresring.jpg" 
+alt="ringcad"
+style="max-width: 100%;"
+onclick="this.src='../photos/Screenshot_20250726_155029.jpg'; this.style.cursor='default';"/>
+
 <br><h4>Switching to Onshape</h4></p>
 
-<p>I made a plug using TPU to hold it, and use a tad of glue and lighter to solidify it, for future references for people doing this, I recommended waiting until you see the weight of the ball first 
-before because it'll sag otherwise, so I would recommend waiting for the end and confirm the weight so the string will have a tight pull.</p>
-<img src="/photos/Screenshot_20250726_154931.png" alt="tpuplugcad">
+<p>I made a plug using TPU to hold everything in place, then used a bit of glue and a lighter to solidify it. For future reference, I’d recommend waiting until you know the weight of the ball before doing this — otherwise, the string might sag. You want it to have a nice tight pull.</p>
+
+<img src="../photos/lowresplgu.jpg" 
+alt="tpuplugcad"
+style="max-width: 100%;"
+onclick="this.src='../photos/Screenshot_20250726_154931.png'; this.style.cursor='default';"
+/>
+
 <br>
 
 <p>I modified the pull string keychain I got from my work into a ring for me to hold and retract it, so maybe this stl/3mf file will be niche unless someone has something similar to it.</p>
-<img src="/photos/IMG_9514.jpg" alt="outsidelowes"><img src="/photos/IMG_9515.jpg" alt="insideoflowes">
+<img src="../photos/lowresoutlowes.jpg" alt="outsidelowes" style="max-width: 100%;"
+onclick="this.src='../photos/IMG_9514.jpg'; this.style.cursor='default';"
+/>
+
+<img src="../photos/lowreslowes.jpg" alt="insideoflowes" style="max-width: 100%;"
+onclick="this.src='../photos/IMG_9515.jpg'; this.style.cursor='default';"
+/>
 <br>
 
 <p>Finally, the last 3D printed part is a rubber cap on the ring part (TPU) so that when I toss the ball it'll come back and hit the rubber hopefully soften and dampen the force so that the ring and ball won't get damaged over usage.</p>
@@ -48,7 +80,7 @@ before because it'll sag otherwise, so I would recommend waiting for the end and
 <h1>3d Printing time (Prusa Core One)</h1>
 <h5>I'll add a gif of it printing... totally</h5>
 
-<p>Exported the model as a stl and 3mf just in case, in PrusaSlicer put organic supports around the center to make sure the sphere stays up and doesn't make any bad overhangs granted this is on the inside soo, Took a while with 10-15% gyroid infill but it should be worth it since I know it'll be coming back with speed and force. I printed this PLA with the “Structure Profile" already made by Prusa. </p>
+<p>I exported the model as both STL and 3MF just in case. In PrusaSlicer, I added organic supports around the center to make sure the sphere prints cleanly and doesn't create bad overhangs (mostly inside the model, thankfully). It took a while with 10–15% gyroid infill, but it should be worth it since the ball will come back fast and hit hard. I printed it in PLA using the “Structure” profile from Prusa.</p>
 
 
 
@@ -57,16 +89,20 @@ before because it'll sag otherwise, so I would recommend waiting for the end and
 
 <a href="https://a.co/d/i0CsbI5">
     Color Shift Green to Copper 
-    <img src="/photos/IMG_533F8EC6-AC51-483B-B108-23F305F7FEF0.jpg" alt="spraypaintgreen">
+    <img src="../photos/lowrespaint.jpg" alt="spraypaintgreen" style="max-width: 100%;"
+    onclick="this.src='../photos/IMG_533F8EC6-AC51-483B-B108-23F305F7FEF0.jpg'; this.style.cursor='default';"
+    />
 </a>
 
-<p>I used any basic wood filler to fill it instead of bondo but either would work but I've previously worked with Bondo and yes it is much stronger but it's not as cheap and wood filler doesn't turn into a rubbery layer afterwards. But I put a couple layers after sanding it down with 100-600 grit sand paper and layering more on it until most of the layers aren't visible.
+<p>I used a basic wood filler instead of Bondo. Both work fine — Bondo is stronger, but more expensive, and it becomes a rubbery layer that’s harder to sand. Wood filler dries quickly and fills gaps well. I layered it after sanding with 100–600 grit paper, repeating until most lines were gone.
 <br><br>
 (some tips for wood filler is that its solidable and able to get into all the gaps and layer lines and drys pretty quick so i cant wait to but a 80 gallon load for future proofing, this doesnt mean its the best use solution for all cases like for my daft punk helmet i needed to use bondo to get the harder cracked parts)
 <br><br>
 I used a soldering gun to melt the two pieces together and used wood filler and sanded it down
 Something that is useful to have is a file or a stick to use the sandpaper to get the ridges, so might have those around as well also using a clamp to prevent moving. A small tube of super glue might be useful as well just in case.
-<img src="/photos/IMG_29C8F15F-AF3A-4928-9A87-9B4BF1CD4017.jpg" alt="sanding first layer">
+<img src="../photos/lowressandin.jpg" alt="sanding first layer" style="max-width: 100%;"
+    onclick="this.src='../photos/IMG_29C8F15F-AF3A-4928-9A87-9B4BF1CD4017.jpg'; this.style.cursor='default';"
+/>
 I've wondered which way was better, printing the pieces, filling , sanding then painting, or putting the pieces together then filling then sanding and then finally painting to see which one would give me the better result,
 <br><br> I'll post the results later to make you decide.</p>
 
@@ -74,23 +110,35 @@ I've wondered which way was better, printing the pieces, filling , sanding then 
 
 <h1>Spray Painting and Priming </h1>
 
-<p>The paint i got was the white filler primer to coat and sand down and i put 3 layers of that afterwards i put the glossy black spray paint put 2 coats of that and wet sanded it with 2000 grit (optional) because that's what's needed to get that special colour mix to work properly, I've chosen the Green/Brown mix to get those cool angles in the light and finally afterwards i put a couple of layers of clear spray paint to protect it from usage</p>
-<img src="/photos/IMG_9546.jpg" at="whiteballs">
+<p>The paint I used was a white filler primer — I put down 3 layers of that and sanded it. Afterward, I applied a couple of coats of glossy black spray paint... put 2 coats of that and wet sanded it with 2000 grit (optional) because that's what's needed to get that special colour mix to work properly, I've chosen the Green/Brown mix to get those cool angles in the light and finally afterwards i put a couple of layers of clear spray paint to protect it from usage</p>
+<img src="../photos/lowresballs.jpg" at="whiteballs" style="max-width: 100%;"
+    onclick="this.src='../photos/IMG_9546.jpg'; this.style.cursor='default';"
+/>
 <p>white primer layer to sanddown later</p>
 <h5>whoops spoilers too ;3</h5>
-<img src="/photos/IMG_AD4FC631-FEB3-4274-A434-7A4E9E4EDAFD.jpg" alt="blackballs">
+<img src="../photos/shineylowres.jpg" alt="blackballs" style="max-width: 100%;"
+    onclick="this.src='../photos/IMG_AD4FC631-FEB3-4274-A434-7A4E9E4EDAFD.jpg'; this.style.cursor='default';"
+/>
 <p>2nd Coat of glossy black spray paint </p>
-<img src="/photos/IMG_9566.jpg" alt="greenballs">
+<img src="../photos/loweresgreen.jpg" alt="greenballs" style="max-width: 100%;"
+    onclick="this.src='../photos/IMG_9566.jpg'; this.style.cursor='default';"
+/>
 <p>final coat of green to copper and clear layer paint</p>
 
 
 
 <h1>Result /Files</h1>
-<p>Its not my best work, it has alot of issues, I see alot of things i could improve on, but its nt bad for a first offical cosplay attempt</p>
+<p>Its not my best work, it has alot of issues, I see alot of things i could improve on, but its not bad for a first attempt</p>
 <h5>Left: String Model        Right: Weathered<h5>
-<img src="/photos/IMG_9660.jpg" alt="peak1">
-<img src="/photos/IMG_9662.jpg" alt="peak2">
-<img src="/photos/IMG_9692.jpg" alt="peak3">
+<img src="../photos/lowresforwaed.jpg" alt="peak1" style="max-width: 100%;"
+ onclick="this.src='../photos/IMG_9660.jpg'; this.style.cursor='default';"
+/>
+<img src="../photos/lowresdown.jpg" alt="peak2" style="max-width: 100%;"
+ onclick="this.src='../photos/9662.jpg'; this.style.cursor='default';"
+/>
+<img src="../photos/lowreswoekin.jpg" alt="peak3" style="max-width: 100%;"
+ onclick="this.src='../photos/IMG_9692.jpg'; this.style.cursor='default';"
+/>
 
 <h5>SPOILER: GYRO BELT COMING SOON</h5>
 
