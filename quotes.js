@@ -48,7 +48,27 @@ const quotes =[
     "Fabuluos... University education, you cant beat it",
     "being a computer toucher is so hard when ur fucking stupid and know nothing about computers",
     "HE WAS INTO AGE PLAY- HE THOUGHT I WAS 6?!",
-    "music brings all togther - Marcos M"
+    "music brings all togther - Marcos M",
+    "JOSE GET THE FUCK OFF THE ROOF",
+    "Going to do Straightedge and Compass Construction",
+    "i was going to call myself jeb (j-web) but that was taken",
+    "maybe i should be called Jwb:tty0",
+    "ever since i was young i wanted to transform unstructured data into actionable buiness insights",
+    "most will starve",
+    "yeah night shift aint to bad...",
+    "Im sorry but i dont take opinions from mexicans with jkk pfps",
+    "a genuis at enginnering but a little bit of an oddball",
+    "being a computer toucher is hard when ur fucking stupid and know nothing about computers",
+    "ah to be autistic from 2009-2016 ",
+    "simplicity is the ulti-BLAH-BLA-BLAH",
+    "the c96 looks so sexy",
+    "why cant i have boobs",
+    "why do i feel maternal towards technologic baby - my ugly ass son",
+    "1 - SO FUCKING TRUE",
+    "0 - THATS THE FAKEST STATMENT IVE EVER HEARD",
+    "boy the money i made this guy, you wouldnt think he would turn on me",
+    "oh thats inflation of my comfort character"
+
     
 
 ]
