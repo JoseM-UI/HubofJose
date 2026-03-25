@@ -56,7 +56,6 @@ const quotes =[
     "ever since i was young i wanted to transform unstructured data into actionable buiness insights",
     "most will starve",
     "yeah night shift aint to bad...",
-    "Im sorry but i dont take opinions from mexicans with jkk pfps",
     "a genuis at enginnering but a little bit of an oddball",
     "being a computer toucher is hard when ur fucking stupid and know nothing about computers",
     "ah to be autistic from 2009-2016 ",
@@ -67,7 +66,8 @@ const quotes =[
     "1 - SO FUCKING TRUE",
     "0 - THATS THE FAKEST STATMENT IVE EVER HEARD",
     "boy the money i made this guy, you wouldnt think he would turn on me",
-    "oh thats inflation of my comfort character"
+    "oh thats inflation of my comfort character",
+    "try not to nut challenge on yotube - micheal j miranda "
 
     
 

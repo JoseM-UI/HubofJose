@@ -1,105 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HubofJose</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HubofJose</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
 </head>
-
 <body>
   <div class="container">
-    <header>
-      <h1><a href="index.html" class="header-link">hubofjose</a></h1>
-    </header>
 
-    <nav>
-<table class="zine-links">
-  <tr>
-    <td><strong>[ email ]</strong></td>
-    <td><a href="mailto:jomationu@gmail.com">email me :3</a></td>
-  </tr>
-  <tr>
-    <td><strong>[ posts ]</strong></td>
-    <td><a href="blog.html">blog posts</a></td>
-  </tr>
-  <tr>
-    <td><strong>[ projects ]</strong></td>
-    <td><a href="PP.html">project dump</a></td>
-  </tr>
-    <tr>
-    <td><strong>[ school ]</strong></td>
-    <td><a href="https://people.depaulhacks.com/2024/coolsitebyjose/Chapter2Forge.html">depaul hacks</a></td>
-  </tr>
-  <tr>
-    <td><strong>[ "Work" Project ]</strong></td>
-    <td><a href="https://thelowball2026.wixsite.com/theball2026">the sticker ball</a></td>
-  </tr>
-  <tr>
-    <td><strong>[ resume ]</strong></td>
-    <td><a href="resume.html">cv / resume</a></td>
-  </tr>
-  <tr>
-    <td><strong>[ blog roll ]</strong></td>
-    <td><a href="tube.html">.link wall</a></td>
-  </tr>
-</table>
-</nav>
+    <div class="icon top" data-link="aboutme.html">
+      <img src="/photos/testabout.png" alt="About">
+    </div>
 
+    <div class="icon left" data-link="PP.html">
+      <img src="/photos/Bot.jpg" alt="Posts">
+    </div>
 
-    <main>
-      <h2>about:</h2>
-      <p>welcome to hubofjose.quest<br> home of everything jose is currently breaking, barely fixing, or overexplaining.</p>
-      <p>jank "engineer/animator", homelab goblin, professional rabbit-holes loser, prints weird pieces of plastic </p>
-            <p>19M - DePaul University</p>
+    <div class="icon right" data-link="resume.html">
+      <img src="/photos/Bot.jpg" alt="Projects">
+    </div>
 
-            <br>
+    <div class="icon bottom" data-link="blog.html">
+      <img src="/photos/Bot.jpg" alt="Resume">
+    </div>
 
+    <!-- to be honest idk audio stuff-->
+    <div class="center">
+      <canvas id="waveCanvas" width="340" height="140"></canvas>
+    </div>
 
-      <div id="device-info">
-        <p id="info"></p>
-      </div>
+  </div>
 
-      <br>
-
-      <div class="daily-quote">
-        <h2>Random Thoughts:</h2>
-        <p id="quote">""</p>
-      </div>
-      <br>
-
-      <footer>est. 2024</footer>
-
-              
-              <script>
-                const userAgent = navigator.userAgent;
-                const platform = navigator.platform;
-                const browser = (() => {
-                  if (userAgent.includes("Chrome")) return "Chrome (ew switch to firefox)";
-                  if (userAgent.includes("Firefox")) return "Firefox";
-                  if (userAgent.includes("Safari")) return "Safari (eh)";
-                  if (userAgent.includes("Edge")) return "Edge (you freak)";
-                  return "idk bro";
-                })();
-              
-                document.getElementById('info').textContent = `Using ${browser} - ${platform}`;
-              </script>
-
-    <script src="quotes.js"></script>
-    <script>
-        const randomIndex = Math.floor(Math.random() * quotes.length);
-        const quoteOfTheDay = quotes[randomIndex];
-        document.getElementById('quote').innerText = quoteOfTheDay;
-    </script>
-
-<script>
-    fetch('/status.txt')
-      .then(response => response.text())
-      .then(text => {
-        document.getElementById('status').textContent = `Status: ${text}`;
-      });
-  </script>
-
-  </main>
-  </body>
+  <button id="muteBtn">Mute</button>
+  <audio id="audioPlayer"></audio>
+  <script src="script.js"></script>
+</body>
 </html>

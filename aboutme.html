@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hoj- About</title>
+  <link href="styling.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+  <div class="page-shell">
+
+
+    <div class="art-side">
+      <div class="art-panel">
+        <img src="/photos/Bot.jpg" alt="about art">
+      </div>
+    </div>
+
+    <div class="content-side">
+      <div class="content-box">
+
+        <div class="top-bar">
+          <a href="index.html" class="back-link">back</a>
+          <h1>hoj</h1>
+        </div>
+
+
+        <div class="content-scroll">
+
+
+          <div class="post-card">
+            <h2>about:</h2>
+            <p>welcome to hubofjose.quest<br>home of everything jose is currently breaking, barely fixing, or overexplaining.</p>
+            <p>jank "engineer/animator", homelab goblin, professional rabbit-holes loser, prints weird pieces of plastic</p>
+            <br>
+            <p>20M - DePaul University</p>
+          </div>
+
+
+          <div class="post-card">
+            <h2>links:</h2>
+            <table class="zine-links">
+              <tr>
+                <td><strong>[ school site ]</strong></td>
+                <td><a href="https://people.depaulhacks.com/2024/coolsitebyjose/Chapter2Forge.html"> depaul hacks</a></td>
+              </tr>
+              <tr>
+                <td><strong>[ "Work" Project ]</strong></td>
+                <td><a href="https://thelowball2026.wixsite.com/theball2026"> the sticker ball</a></td>
+              </tr>
+              <tr>
+                <td><strong>[ blog roll ]</strong></td>
+                <td><a href="tube.html"> .link wall</a></td>
+              </tr>
+              <tr>
+                <td><strong>[ Prusa Printables ]</strong></td>
+                <td><a href="https://www.printables.com/@JoseMUI_2864325"> prusa fanboy #1 </a></td>
+              </tr>
+
+
+            </table>
+          </div>
+
+          
+          <div class="post-card">
+            <h2>random thoughts:</h2>
+            <p id="quote">""</p>
+          </div>
+<br>
+          <footer>est. 2024</footer>
+
+        </div>
+      </div>
+    </div>
+
+  </div><!-- end page -->
+
+  <script src="quotes.js"></script>
+  <script>
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    const quoteOfTheDay = quotes[randomIndex];
+    document.getElementById('quote').innerText = quoteOfTheDay;
+  </script>
+
+</body>
+</html>
