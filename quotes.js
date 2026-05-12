@@ -1,5 +1,6 @@
 const quotes =[
     "RUN 'Peter Parker' RUN!! ",
+    "fuck ice",
     "'slightly autistic nitpic'",
     "'Every now and then, God taps me on the sholder and says, yo I want you to do this right here - Kanye West'",
     "'why do I have to keep assuring people that I know what I'm doing?'",
@@ -67,11 +68,15 @@ const quotes =[
     "0 - THATS THE FAKEST STATMENT IVE EVER HEARD",
     "boy the money i made this guy, you wouldnt think he would turn on me",
     "oh thats inflation of my comfort character",
-    "try not to nut challenge on yotube - micheal j miranda ",
+    "i remember watching those try not to nut challenges on yotube - micheal j miranda ",
     "type shit - hans ",
+    "ay bruh im just dumb",
+    "PVZ G3 looks good",
+    "Proud Devaun (OpenRC) user",
     "Topped a twink on Tuesday - Erik",
+    "yes charlie K krik said that",
     "Paws > feet - Erik",
-    "erik your a freak bruh keeping it real lad"
+    "erik, your a freak bruh, keeping it real lad"
 
     
 
