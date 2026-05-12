@@ -26,6 +26,9 @@
   height: 315px; /* or whatever height you like */
 }
 
+.video-single iframe {
+  width: 100%;
+}
 
 html {
   overflow-y: scroll;
@@ -144,3 +147,34 @@ footer {
   padding: 0.5em 0;
   font-size: 1rem;
 }
+
+.meta {
+  font-size: 0.85em;
+  opacity: 0.6;
+  margin-bottom: 2em;
+}
+ 
+.aside-note {
+  font-size: 0.88em;
+  opacity: 0.7;
+  font-style: italic;
+}
+ 
+.game-section {
+  border-left: 3px solid var(--linkcolor);
+  padding-left: 1em;
+  margin: 1.5em 0;
+}
+ 
+.game-section h2 {
+  margin-top: 0.3em;
+}
+ 
+.verdict {
+  font-style: italic;
+  opacity: 0.75;
+  margin-top: 1.5em;
+  padding-top: 1em;
+  border-top: 1px solid rgba(120,120,120,0.2);
+}
+ 

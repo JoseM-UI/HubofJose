@@ -8,6 +8,8 @@ body {
   align-items: center;
 }
 
+
+
 .container {
   --icon-size: 190px;
   --center-size: 190px;
@@ -24,7 +26,6 @@ body {
   background: #050505;
   border: none;
   box-sizing: border-box;
-  overflow: hidden;
   cursor: pointer;
   transition: transform 0.8s ease, opacity 0.5s ease, filter 0.5s ease;
   z-index: 2;
@@ -39,6 +40,22 @@ body {
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+.left::after {
+  bottom: -32px !important;
+  left: 50% !important;
+  top: auto !important;
+  right: auto !important;
+  transform: translateX(-50%) !important;
+}
+
+.right::after {
+  bottom: auto !important;
+  left: 50% !important;
+  top: -32px !important;
+  right: auto !important;
+  transform: translateX(-50%) !important;
 }
 
 .center {
@@ -124,4 +141,50 @@ body {
   border: 1px solid #ec9c40;
   color: #ec9c40;
   cursor: pointer;
+}
+
+.icon::after {
+  content: attr(data-label);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #000;
+  color: #ec9c40;
+  border: 1px solid #ec9c40;
+  padding: 4px 12px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.top::after {
+  top: -32px;
+}
+
+.bottom::after {
+  bottom: -32px;
+}
+
+.left::after {
+  left: -32px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.right::after {
+  right: -32px;
+  left: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.icon:hover::after {
+  opacity: 1;
+}
+
+.icon:hover img {
+  filter: brightness(1.2);
 }

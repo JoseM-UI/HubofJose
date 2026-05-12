@@ -32,11 +32,14 @@ const muteBtn = document.getElementById("muteBtn");
 
 const playlist = [
     
-  "/audio/sea of science.mp3",
+  "/audio/sea of science.mp3", 
+  "/audio/sam.mp3",
   "/audio/Portal button.mp3",
   "/audio/soundjunkv2.mp3",
+  "/audio/sam(1).mp3",
   "/audio/Half life_ Health Charger sound.mp3",
   "/audio/Smiling Friends Credits Song.mp3"
+
 
 ];
 

@@ -67,7 +67,11 @@ const quotes =[
     "0 - THATS THE FAKEST STATMENT IVE EVER HEARD",
     "boy the money i made this guy, you wouldnt think he would turn on me",
     "oh thats inflation of my comfort character",
-    "try not to nut challenge on yotube - micheal j miranda "
+    "try not to nut challenge on yotube - micheal j miranda ",
+    "type shit - hans ",
+    "Topped a twink on Tuesday - Erik",
+    "Paws > feet - Erik",
+    "erik your a freak bruh keeping it real lad"
 
     
 
