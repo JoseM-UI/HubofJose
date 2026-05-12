@@ -14,10 +14,12 @@ overflow: hidden;
 
 
 .page-shell {
-position: relative;
-min-height: 100vh;
-display: flex;
-background:#000;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  background: #000;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 td {
@@ -32,14 +34,15 @@ position: relative;
 display: flex;
 align-items: center;
 justify-content: flex-start;
-overflow: hidden;
+/*overflow: hidden;*/
 }
+
 .art-panel {
 width: 360px;
 max-width: 85%;
 margin-left: 2.5rem;
 transform-origin: left center;
-transform: perspective(1200px) rotateY(28deg) translateX(-10px);
+transform: perspective(1200px) rotateY(28deg) translateX(-190px);
 filter: drop-shadow(18px 8px 30px rgba(0, 0, 0, 0.85));
 }
 .art-panel img {
@@ -62,7 +65,7 @@ padding: 2rem;
 }
 .content-box {
 width: min(900px, 100%);
-height: 82vh;
+height: fit-content;;
 background: rgba(8, 12, 12, 0.82);
 border: 1px solid #ec9c40;
 box-shadow:
@@ -153,7 +156,7 @@ transform: perspective(1200px) rotateY(12deg);
 padding: 1rem;
   }
 .content-box {
-height: auto;
+height: fit-content;;
 min-height: 60vh;
   }
 }
