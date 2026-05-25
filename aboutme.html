@@ -23,7 +23,7 @@
         <div class="top-bar">
           <a href="index.html" class="back-link">back</a>
           <h1>hoj</h1>
-          <p>weekly updates: <em>New Blog/Project articles + New Icons + SAM Voicelines?</em></p>
+          <p>weekly updates: <em>refresh counter + "fixed UI" + more links</em></p>
         </div>
 
 
@@ -59,20 +59,34 @@
                 <td><a href="https://thelowball2026.wixsite.com/theball2026"> the sticker ball</a></td>
               </tr>
               <tr>
-                <td><strong>[ blog roll ]</strong></td>
+                <td><strong>[ long list of link ]</strong></td>
                 <td><a href="tube.html"> .link wall</a></td>
               </tr>
               <tr>
-                <td><strong>[ Prusa Printables ]</strong></td>
+                <td><strong>[ Prusa account ]</strong></td>
                 <td><a href="https://www.printables.com/@JoseMUI_2864325"> prusa fanboy #1 </a></td>
               </tr>
+              <tr>
+                <td><strong>[ Wikipedia account ]</strong></td>
+                <td><a href="https://w.wiki/7XVn">what i edited or added</a></td>
+              </tr>
+
+
             </table>
           </div>
           
           <div class="post-card">
             <h2>random thoughts:</h2>
             <p id="quote">""</p>
+            <br>
+            <p><h2>refresh counter //</h2>
+            welcome back.... for the... <span id="refresh-count">0</span> time! </p>
           </div>
+
+
+
+
+
                     <footer>est. 2024</footer>
 
 
@@ -89,6 +103,13 @@
     const randomIndex = Math.floor(Math.random() * quotes.length);
     const quoteOfTheDay = quotes[randomIndex];
     document.getElementById('quote').innerText = quoteOfTheDay;
+
+
+    let refreshCount = parseInt(localStorage.getItem('hoj-refreshes')) || 0;
+refreshCount++;
+localStorage.setItem('hoj-refreshes', refreshCount);
+document.getElementById('refresh-count').textContent = refreshCount;
+
   </script>
 
 

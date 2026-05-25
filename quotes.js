@@ -1,6 +1,6 @@
 const quotes =[
     "RUN 'Peter Parker' RUN!! ",
-    "fuck ice",
+    "fuck icec- hans",
     "'slightly autistic nitpic'",
     "'Every now and then, God taps me on the sholder and says, yo I want you to do this right here - Kanye West'",
     "'why do I have to keep assuring people that I know what I'm doing?'",
@@ -76,7 +76,24 @@ const quotes =[
     "Topped a twink on Tuesday - Erik",
     "yes charlie K krik said that",
     "Paws > feet - Erik",
-    "erik, your a freak bruh, keeping it real lad"
+    "erik, your a freak bruh, keeping it real lad",
+    "finally i updated this place",
+    "i heard if you keep refreshing and hit 100000000, you'll get money",
+    "damn",
+    "jose of all trades",
+    "not a jack of all trades, but a hoe of all hobbies",
+    "steve wozniak is the goat",
+    "I do not think, therefore i do not am",
+    "NOT HAPPENING",
+    "his ass is NOT doing ANYTHING",
+    "pengin",
+    "very chinese rn",
+    "framework please send me a laptop, please..",
+    "i want to learn everything",
+    "1000000 wips",
+    "projectmaxxing rn",
+    "back to life like an epipen"
+
 
     
 
