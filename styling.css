@@ -2,58 +2,26 @@
   box-sizing: border-box;
 }
 html, body {
-margin: 0;
-min-height: 100%;
-background: #000;
-color: #ffffff;
-font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  background: #000;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-y: auto;
 }
 
-
 .page-shell {
-  position: relative;
-  min-height: 100vh;
   display: flex;
+  justify-content: center;
   background: #000;
   max-width: 1400px;
   margin: 0 auto;
-  align-items: flex-start;
+  padding: 2rem;
 }
 
 td {
   padding: 0.3rem 2rem 0.3rem 0;
 }
-
-
-.art-side {
-  width: 40%;
-  min-width: 500px;
-  position: sticky;
-  top: 0;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.art-panel {
-width: 360px;
-max-width: 85%;
-margin-left: 2.5rem;
-transform-origin: left center;
-transform: perspective(1200px) rotateY(28deg) translateX(-190px);
-filter: drop-shadow(18px 8px 30px rgba(0, 0, 0, 0.85));
-}
-.art-panel img {
-display: block;
-width: 260%;
-height: auto;
-border: 2px solid #ec9c40;
-box-shadow:
-0 0 18px rgba(236, 156, 64, 0.15),
-0 0 50px rgba(0, 0, 0, 0.7);
-}
-
 
 .content-side {
   flex: 1;
@@ -61,22 +29,21 @@ box-shadow:
   align-items: flex-start;
   justify-content: center;
   padding: 2rem;
+  margin: 0 auto;
 }
 
 .content-box {
-width: min(900px, 100%);
-height: fit-content;;
-background: rgba(8, 12, 12, 0.82);
-border: 1px solid #ec9c40;
-box-shadow:
-0 0 30px rgba(236, 156, 64, 0.1),
-inset 0 0 40px rgba(255,255,255,0.02);
-backdrop-filter: blur(3px);
-display: flex;
-flex-direction: column;
-overflow: hidden;
+  width: min(900px, 100%);
+  height: fit-content;
+  background: rgba(8, 12, 12, 0.82);
+  border: 1px solid #ec9c40;
+  box-shadow:
+    0 0 30px rgba(236, 156, 64, 0.1),
+    inset 0 0 40px rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(3px);
+  display: flex;
+  flex-direction: column;
 }
-
 
 .top-bar {
 padding: 1rem 1.25rem;
@@ -141,17 +108,7 @@ overflow: auto;
 .page-shell {
 flex-direction: column;
   }
-.art-side {
-width: 100%;
-min-width: 0;
-justify-content: center;
-padding-top: 1.5rem;
-  }
-.art-panel {
-margin-left: 0;
-width: min(280px, 78vw);
-transform: perspective(1200px) rotateY(12deg);
-  }
+
 .content-side {
 padding: 1rem;
   }

@@ -92,7 +92,14 @@ const quotes =[
     "i want to learn everything",
     "1000000 wips",
     "projectmaxxing rn",
-    "back to life like an epipen"
+    "back to life like an epipen",
+    "fuck i forgot im broke",
+    "CUBS WIN LETS GOOOO",
+    "beeetaaaa",
+    "why does it take 2 mexicans and 1 indian to finish the job",
+    
+    
+
 
 
     
