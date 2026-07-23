@@ -97,6 +97,54 @@ a:hover {
 text-decoration: underline;
 }
 
+.article-grid {
+  padding: 1.25rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.article-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid #ec9c40;
+  padding: 1.5rem;
+}
+
+.article-card h2 {
+  margin: 0 0 0.5rem 0;
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+.article-card p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.85rem;
+}
+
+.article-card a {
+  color: #ec9c40;
+}
+
+.article-card .tags {
+  margin-top: 0.75rem;
+}
+
+.article-card .tags a {
+  display: inline-block;
+  background: rgba(236, 156, 64, 0.15);
+  border: 1px solid #ec9c40;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.75rem;
+  margin-right: 0.3rem;
+}
+
+.article-card .tags a:hover {
+  background: rgba(236, 156, 64, 0.3);
+  text-decoration: none;
+}
+
+
 
 
 
