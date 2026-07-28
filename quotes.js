@@ -97,6 +97,9 @@ const quotes =[
     "CUBS WIN LETS GOOOO",
     "beeetaaaa",
     "why does it take 2 mexicans and 1 indian to finish the job",
+    "baby.. your a bottom?",
+    "zorp",
+    "HOJ BORN - NOT SWEDISH",
     
     
 
