@@ -100,6 +100,7 @@ const quotes =[
     "baby.. your a bottom?",
     "zorp",
     "HOJ BORN - NOT SWEDISH",
+    "'go write a another article'",
     
     
 
